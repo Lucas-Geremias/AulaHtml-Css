@@ -1,0 +1,21 @@
+body {
+  background-color: lightblue;
+}
+p{
+  color: firebrick;
+  background-color: lightgreen;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.container{
+  background-color: cornflowerblue;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  text-align: center;
+}
