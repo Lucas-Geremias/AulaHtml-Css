@@ -3,3 +3,47 @@
   margin: 0;
   box-sizing: border-box;
 }
+header{
+  background-image: url(img.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+.barber{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+.barber ul{
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+ a{
+  color: white;
+  text-decoration: none;
+}
+.white{
+  background-color: white;
+  padding: 8px;
+  color: black;
+  border-radius: 8px;
+}
+h1{
+  color: orange;
+}
+p{
+  color: white;
+}
+.mais{
+  background-color: white;
+  color: black;
+  padding: 8px;
+  border-radius: 8px;
+}
+.estilo{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+align-items: start;  
+}
